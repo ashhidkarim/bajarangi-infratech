@@ -16,7 +16,7 @@ import { projects } from "@/data/projects";
 const PHONE = "+91-8668454817";
 const web4 = "https://web4infotech.com/";
 
-const PHONE_TEL = "+918558454817";
+const PHONE_TEL = "+918668454817";
 const WA = `https://api.whatsapp.com/send?phone=+918668454817&text=Hello`;
 const EMAIL = "bajarangiinfratech@gmail.com";
 
