@@ -36,12 +36,12 @@ var public_assets_data_default = {
 		"size": 131775,
 		"path": "../public/assets/batching-plant-c7tIT3Ag.jpg"
 	},
-	"/favicon.ico": {
+	"/favicons.ico": {
 		"type": "image/vnd.microsoft.icon",
 		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
 		"mtime": "2026-07-22T09:41:28.380Z",
 		"size": 20373,
-		"path": "../public/favicon.ico"
+		"path": "../public/favicons.ico"
 	},
 	"/assets/hmi-scada-CLcX_qcA.jpg": {
 		"type": "image/jpeg",

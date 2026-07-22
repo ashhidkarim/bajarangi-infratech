@@ -152,7 +152,7 @@ var Route$1 = createRootRouteWithContext()({
 			},
 			{
 				rel: "icon",
-				href: "/favicon.ico",
+				href: "/favicons.ico",
 				type: "image/x-icon"
 			}
 		]
