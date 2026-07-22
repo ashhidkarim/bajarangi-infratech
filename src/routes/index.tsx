@@ -13,11 +13,11 @@ import batchingImg from "@/assets/batching-plant.jpg";
 import hmiImg from "@/assets/hmi-scada.jpg";
 import { projects } from "@/data/projects";
 
-const PHONE = "+91-8558454817";
+const PHONE = "+91-8668454817";
 const web4 = "https://web4infotech.com/";
 
 const PHONE_TEL = "+918558454817";
-const WA = `https://api.whatsapp.com/send?phone=+918558454817&text=Hello`;
+const WA = `https://api.whatsapp.com/send?phone=+918668454817&text=Hello`;
 const EMAIL = "bajarangiinfratech@gmail.com";
 
 export const Route = createFileRoute("/")({
@@ -343,7 +343,7 @@ function Industries() {
   const list = [
     "Cement Industry","Concrete Batching Plants","Steel Industry","Automotive",
     "Pharmaceutical","Food Processing","Packaging","Chemical Plants",
-    "Water Treatment","OEM Machine Builders",
+    "Water Treatment","OEM Machine Builders", "Hydraulic industry",
   ];
   return (
     <section id="industries" className="py-24">
@@ -538,7 +538,7 @@ function Contact() {
               <span className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-brand/15 text-brand ring-1 ring-brand/30">
                 <MapPin className="h-4 w-4" />
               </span>
-              Belagavi, Karnataka, India
+              bajarangi infratech world, Near, KLE Engineering College Rd, Angol, Belagavi, Karnataka 590008.
             </li>
             <li>
               <a href={`tel:${PHONE_TEL}`} className="flex items-center gap-3 hover:text-brand transition">
@@ -566,12 +566,16 @@ function Contact() {
             </li>
           </ul>
           <div className="mt-8 rounded-xl overflow-hidden border border-border">
-            <iframe
-              title="Belagavi map"
-              src="https://www.google.com/maps?q=Belagavi%2C%20Karnataka&output=embed"
-              className="w-full h-64"
-              loading="lazy"
-            />
+<iframe
+  title="Bajarangi Infratech World"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.824908015845!2d74.5012998!3d15.8156137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf65817586ec37%3A0x64f6259a94b248e9!2sBajarangi%20Infratech%20World!5e1!3m2!1sen!2sin!4v1784721440390!5m2!1sen!2sin"
+  width="100%"
+  height="250"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="strict-origin-when-cross-origin"
+/>
           </div>
         </div>
 
