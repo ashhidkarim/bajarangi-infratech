@@ -5,8 +5,8 @@ import { i as projects } from "./projects-DhWQh564.mjs";
 import { t as Route } from "./projects._slug-D1lF_5F8.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/projects._slug-LI4DWNFX.js
 var import_jsx_runtime = require_jsx_runtime();
-var PHONE = "+91 89700 63613";
-var PHONE_TEL = "+918970063613";
+var PHONE = "+91-8668454817";
+var PHONE_TEL = "+91-8668454817";
 var WA = `https://wa.me/${PHONE_TEL.replace("+", "")}?text=${encodeURIComponent("Hi Bajarangi Infratech, I'd like to discuss a similar project.")}`;
 function ProjectCase() {
 	const { project } = Route.useLoaderData();

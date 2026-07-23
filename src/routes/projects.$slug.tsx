@@ -3,8 +3,8 @@ import { ArrowLeft, ArrowRight, CheckCircle2, MessageCircle, Phone } from "lucid
 import type { CaseStudy } from "@/data/projects";
 import { projectBySlug, projects } from "@/data/projects";
 
-const PHONE = "+91 89700 63613";
-const PHONE_TEL = "+918970063613";
+const PHONE = "+91-8668454817";
+const PHONE_TEL = "+91-8668454817";
 const WA = `https://wa.me/${PHONE_TEL.replace("+", "")}?text=${encodeURIComponent(
   "Hi Bajarangi Infratech, I'd like to discuss a similar project.",
 )}`;
