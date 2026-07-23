@@ -86,14 +86,14 @@ function Nav() {
           </span> */}
 
           <img src={logo} alt="Banner" style={{ width: "60px" }}/>
-          <span className="font-display font-bold tracking-tight text-[15px] leading-tight">
+          <span className="font-display font-bold tracking-tight text-[20px] leading-tight">
             BAJARANGI
-            <span className="block text-[10px] font-medium text-muted-foreground tracking-[0.22em]">
+            <span className="block text-[14px] font-medium text-muted-foreground tracking-[0.22em]">
               INFRATECH WORLD
             </span>
           </span>
         </a>
-        <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
+        <nav className="hidden md:flex items-center gap-7 text-lg text-muted-foreground">
           {[
             ["About", "#about"],
             ["Services", "#services"],
@@ -712,7 +712,7 @@ function StickyActions() {
 /* ---------- Bits ---------- */
 function SectionKicker({ children }: { children: ReactNode }) {
   return (
-    <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-brand">
+    <div className="inline-flex items-center gap-2 text-lg uppercase tracking-[0.25em] text-brand">
       <span className="h-px w-6 bg-brand" />
       {children}
     </div>
