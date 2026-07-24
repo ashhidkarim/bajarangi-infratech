@@ -5,9 +5,8 @@ import { projectBySlug, projects } from "@/data/projects";
 
 const PHONE = "+91-8668454817";
 const PHONE_TEL = "+91-8668454817";
-const WA = `https://wa.me/${PHONE_TEL.replace("+", "")}?text=${encodeURIComponent(
-  "Hi Bajarangi Infratech, I'd like to discuss a similar project.",
-)}`;
+const WA = `https://api.whatsapp.com/send?phone=+918668454817&text=Hello`;
+
 
 export const Route = createFileRoute("/projects/$slug")({
   loader: ({ params }): { project: CaseStudy } => {
@@ -89,7 +88,7 @@ function ProjectCase() {
           <div className="absolute inset-0 grid-lines opacity-60" />
         </div>
         <div className="mx-auto max-w-7xl px-5 lg:px-8 pt-16 pb-20 lg:pt-24 lg:pb-28">
-          <div className="text-xs uppercase tracking-[0.25em] text-brand">Case Study · {project.tag}</div>
+          <div className="text-lg uppercase tracking-[0.25em] text-brand">Case Study · {project.tag}</div>
           <h1 className="mt-4 font-display font-bold text-4xl md:text-6xl leading-[1.05] max-w-4xl">
             {project.title}
           </h1>
@@ -105,7 +104,7 @@ function ProjectCase() {
           {project.outcomes.map((o) => (
             <div key={o.label}>
               <div className="font-display font-bold text-2xl md:text-3xl text-gradient-brand">{o.value}</div>
-              <div className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">{o.label}</div>
+              <div className="mt-1 text-lg uppercase tracking-widest text-muted-foreground">{o.label}</div>
             </div>
           ))}
         </div>
@@ -247,7 +246,7 @@ function ProjectCase() {
 
 function SectionKicker({ children }: { children: React.ReactNode }) {
   return (
-    <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-brand">
+    <div className="inline-flex items-center gap-2 text-lg uppercase tracking-[0.25em] text-brand">
       <span className="h-px w-6 bg-brand" />
       {children}
     </div>
@@ -255,7 +254,7 @@ function SectionKicker({ children }: { children: React.ReactNode }) {
 }
 function SectionKickerCenter({ children }: { children: React.ReactNode }) {
   return (
-    <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-brand">
+    <div className="inline-flex items-center gap-2 text-lg uppercase tracking-[0.25em] text-brand">
       <span className="h-px w-6 bg-brand" />
       {children}
       <span className="h-px w-6 bg-brand" />

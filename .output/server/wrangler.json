@@ -1,11 +1,11 @@
 {
-  "compatibility_date": "2026-07-22",
+  "compatibility_date": "2026-07-24",
   "main": "index.mjs",
   "assets": {
     "binding": "ASSETS",
     "directory": "../public"
   },
-  "name": "tanstack-start-ts",
+  "name": "ashhidkarim-bajarangi-infratech",
   "compatibility_flags": [
     "nodejs_compat"
   ],

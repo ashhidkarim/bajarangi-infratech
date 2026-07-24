@@ -8,10 +8,16 @@ import {
   ShieldCheck, Wrench, Clock, HeadphonesIcon, Phone, Mail, MapPin,
   MessageCircle, ArrowRight, CheckCircle2, Star, Activity,  Menu, X,
 } from "lucide-react";
-import heroImg from "@/assets/hero-automation.jpg";
+// import heroImg from "@/assets/hero-automation.jpg";
 import panelImg from "@/assets/panel.jpg";
 import batchingImg from "@/assets/batching-plant.jpg";
 import hmiImg from "@/assets/hmi-scada.jpg";
+import a1 from "@/assets/a-1.jpg";
+import a2 from "@/assets/a-2.jpg";
+import a3 from "@/assets/a-3.jpg";
+import a4 from "@/assets/a-4.jpg";
+import a5 from "@/assets/a-5.jpg";
+import a6 from "@/assets/a-6.jpg";
 import { projects } from "@/data/projects";
 
 const PHONE = "+91-8668454817";
@@ -153,14 +159,19 @@ function Hero() {
   return (
     <section id="top" className="relative isolate overflow-hidden pt-28 pb-24 lg:pt-36 lg:pb-32">
       <div className="absolute inset-0 -z-10">
-        <img
-          src={heroImg}
-          alt="Industrial automation control room with PLC cabinets and SCADA screens"
-          className="h-full w-full object-cover opacity-40"
-          width={1920}
-          height={1080}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background" />
+    <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="h-full w-full object-cover opacity-40"
+>
+  <source
+    src="https://cdn.prod.website-files.com/65f854814fd223fc3678ea45/6601787785162a844edf5cf8_iStock-804878296-transcode.mp4"
+    type="video/mp4"
+  />
+</video>
+<div className="absolute inset-0 bg-black/10" />
         <div className="absolute inset-0 grid-lines opacity-60" />
       </div>
 
@@ -207,11 +218,14 @@ function Hero() {
           </a>
         </div>
 
-        <div className="mt-12 flex flex-wrap gap-x-8 gap-y-3 text-xs text-muted-foreground uppercase tracking-widest">
-          {["Siemens", "Delta", "Mitsubishi", "Allen Bradley", "LabVIEW", "Weintek"].map((b) => (
-            <span key={b} className="opacity-70">{b}</span>
-          ))}
-        </div>
+  <div className="mt-12 flex flex-wrap items-center gap-6">
+  <img src={a1} alt="Siemens" className="h-18 object-contain rounded-xl" />
+<img src={a2} alt="Delta" className="h-18 object-contain rounded-xl" />
+<img src={a3} alt="Mitsubishi" className="h-18 object-contain rounded-xl" />
+<img src={a4} alt="Allen Bradley" className="h-18 object-contain rounded-xl" />
+<img src={a4} alt="LabVIEW" className="h-18 object-contain rounded-xl" />
+<img src={a5} alt="Weintek" className="h-18 object-contain rounded-xl" />
+</div>
       </div>
     </section>
   );

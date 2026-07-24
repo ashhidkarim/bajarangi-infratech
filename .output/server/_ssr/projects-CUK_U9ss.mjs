@@ -1,16 +1,8 @@
-//#region src/assets/hero-automation.jpg
-var hero_automation_default = "/assets/hero-automation-Bwyp4K_h.jpg";
-//#endregion
-//#region src/assets/panel.jpg
+//#region node_modules/.nitro/vite/services/ssr/assets/projects-CUK_U9ss.js
+var hero_automation_default = "/assets/hero-automation-CpH71nzF.jpg";
 var panel_default = "/assets/panel-DnbEkkkm.jpg";
-//#endregion
-//#region src/assets/batching-plant.jpg
 var batching_plant_default = "/assets/batching-plant-c7tIT3Ag.jpg";
-//#endregion
-//#region src/assets/hmi-scada.jpg
 var hmi_scada_default = "/assets/hmi-scada-CLcX_qcA.jpg";
-//#endregion
-//#region src/data/projects.ts
 var g = (order) => {
 	const imgs = [
 		batching_plant_default,
@@ -386,4 +378,4 @@ var projects = [
 ];
 var projectBySlug = (slug) => projects.find((p) => p.slug === slug);
 //#endregion
-export { hero_automation_default as i, projects as n, panel_default as r, projectBySlug as t };
+export { projects as i, panel_default as n, projectBySlug as r, hero_automation_default as t };

@@ -1,9 +1,9 @@
+import { i as projects } from "./projects-CUK_U9ss.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { t as Route } from "./projects._slug-BjgRuAxx.mjs";
 import { S as ArrowLeft, b as CircleCheck, c as MessageCircle, o as Phone, x as ArrowRight } from "../_libs/lucide-react.mjs";
-import { i as projects } from "./projects-DhWQh564.mjs";
-import { t as Route } from "./projects._slug-D1lF_5F8.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/projects._slug-LI4DWNFX.js
+//#region node_modules/.nitro/vite/services/ssr/assets/projects._slug-AjAv3Fbb.js
 var import_jsx_runtime = require_jsx_runtime();
 var PHONE = "+91-8668454817";
 var PHONE_TEL = "+91-8668454817";
