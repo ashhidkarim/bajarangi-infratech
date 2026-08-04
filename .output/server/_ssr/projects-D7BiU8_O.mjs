@@ -1,5 +1,5 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/projects-CUK_U9ss.js
-var hero_automation_default = "/assets/hero-automation-CpH71nzF.jpg";
+//#region node_modules/.nitro/vite/services/ssr/assets/projects-D7BiU8_O.js
+var hero_automation_default = "/assets/hero-automation-DaHfezWA.jpg";
 var panel_default = "/assets/panel-DnbEkkkm.jpg";
 var batching_plant_default = "/assets/batching-plant-c7tIT3Ag.jpg";
 var hmi_scada_default = "/assets/hmi-scada-CLcX_qcA.jpg";
@@ -378,4 +378,4 @@ var projects = [
 ];
 var projectBySlug = (slug) => projects.find((p) => p.slug === slug);
 //#endregion
-export { projects as i, panel_default as n, projectBySlug as r, hero_automation_default as t };
+export { projectBySlug as n, projects as r, panel_default as t };

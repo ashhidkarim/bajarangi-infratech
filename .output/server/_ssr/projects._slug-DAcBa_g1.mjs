@@ -1,13 +1,13 @@
-import { i as projects } from "./projects-CUK_U9ss.mjs";
+import { r as projects } from "./projects-D7BiU8_O.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route } from "./projects._slug-BjgRuAxx.mjs";
+import { t as Route } from "./projects._slug-DRl0tf8q.mjs";
 import { S as ArrowLeft, b as CircleCheck, c as MessageCircle, o as Phone, x as ArrowRight } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/projects._slug-AjAv3Fbb.js
+//#region node_modules/.nitro/vite/services/ssr/assets/projects._slug-DAcBa_g1.js
 var import_jsx_runtime = require_jsx_runtime();
 var PHONE = "+91-8668454817";
 var PHONE_TEL = "+91-8668454817";
-var WA = `https://wa.me/${PHONE_TEL.replace("+", "")}?text=${encodeURIComponent("Hi Bajarangi Infratech, I'd like to discuss a similar project.")}`;
+var WA = `https://api.whatsapp.com/send?phone=+918668454817&text=Hello`;
 function ProjectCase() {
 	const { project } = Route.useLoaderData();
 	const others = projects.filter((p) => p.slug !== project.slug).slice(0, 3);
@@ -52,7 +52,7 @@ function ProjectCase() {
 					className: "mx-auto max-w-7xl px-5 lg:px-8 pt-16 pb-20 lg:pt-24 lg:pb-28",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "text-xs uppercase tracking-[0.25em] text-brand",
+							className: "text-lg uppercase tracking-[0.25em] text-brand",
 							children: ["Case Study · ", project.tag]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
@@ -74,7 +74,7 @@ function ProjectCase() {
 						className: "font-display font-bold text-2xl md:text-3xl text-gradient-brand",
 						children: o.value
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "mt-1 text-xs uppercase tracking-widest text-muted-foreground",
+						className: "mt-1 text-lg uppercase tracking-widest text-muted-foreground",
 						children: o.label
 					})] }, o.label))
 				})
@@ -240,13 +240,13 @@ function ProjectCase() {
 }
 function SectionKicker({ children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-brand",
+		className: "inline-flex items-center gap-2 text-lg uppercase tracking-[0.25em] text-brand",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "h-px w-6 bg-brand" }), children]
 	});
 }
 function SectionKickerCenter({ children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-brand",
+		className: "inline-flex items-center gap-2 text-lg uppercase tracking-[0.25em] text-brand",
 		children: [
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "h-px w-6 bg-brand" }),
 			children,

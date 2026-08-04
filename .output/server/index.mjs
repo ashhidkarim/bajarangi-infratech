@@ -18,142 +18,142 @@ var public_assets_data_default = {
 	"/.DS_Store": {
 		"type": "text/plain; charset=utf-8",
 		"etag": "\"1804-ws3Xe6yH00tgvx5OKgLXzMoCJPA\"",
-		"mtime": "2026-07-24T10:38:04.660Z",
+		"mtime": "2026-08-04T12:01:20.348Z",
 		"size": 6148,
 		"path": "../public/.DS_Store"
 	},
-	"/assets/a-1-Bsyp4Xb6.jpg": {
+	"/assets/a-1-vcRhEuaj.jpg": {
 		"type": "image/jpeg",
-		"etag": "\"2054-ELbfjaXBKSDoIdnLyvEvyVtA9cY\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
-		"size": 8276,
-		"path": "../public/assets/a-1-Bsyp4Xb6.jpg"
+		"etag": "\"2093-FBXtJTBk5OJ5ZaUi4e7RXc8QqA0\"",
+		"mtime": "2026-08-04T12:01:20.087Z",
+		"size": 8339,
+		"path": "../public/assets/a-1-vcRhEuaj.jpg"
 	},
-	"/assets/a-2-BZlJ7XD_.jpg": {
+	"/assets/a-2-CqQ75aaa.jpg": {
 		"type": "image/jpeg",
-		"etag": "\"1db9-GjmPIcLa9RFAL7F03cOdGAVtsbs\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
-		"size": 7609,
-		"path": "../public/assets/a-2-BZlJ7XD_.jpg"
+		"etag": "\"1db1-MV+XDTM7q16hACDeANSKaFGh9R0\"",
+		"mtime": "2026-08-04T12:01:20.087Z",
+		"size": 7601,
+		"path": "../public/assets/a-2-CqQ75aaa.jpg"
 	},
-	"/assets/a-3-EGnBb_Hi.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"215d-1rfuYSapEcGP4QB+wxE4kCDf5r8\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
-		"size": 8541,
-		"path": "../public/assets/a-3-EGnBb_Hi.jpg"
-	},
-	"/assets/a-5-CVjXUQDp.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"1dd3-rvxvvhcBC+pHq5xjPZySzmiP6oQ\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
-		"size": 7635,
-		"path": "../public/assets/a-5-CVjXUQDp.jpg"
-	},
-	"/assets/createLucideIcon-CIfNJlK7.js": {
+	"/assets/arrow-left-6GxuooiI.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"4a5-4GVEwSy1y7jedlccSpTI3VCmO8g\"",
-		"mtime": "2026-07-24T10:38:04.452Z",
-		"size": 1189,
-		"path": "../public/assets/createLucideIcon-CIfNJlK7.js"
-	},
-	"/assets/arrow-left-BY-Nc-3I.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"a5-ALawNiF41NMLwApK37tU4p/YdXU\"",
-		"mtime": "2026-07-24T10:38:04.452Z",
+		"etag": "\"a5-2Wa82ykKMsc1Eg7+8Udq5uUtEl0\"",
+		"mtime": "2026-08-04T12:01:20.086Z",
 		"size": 165,
-		"path": "../public/assets/arrow-left-BY-Nc-3I.js"
+		"path": "../public/assets/arrow-left-6GxuooiI.js"
+	},
+	"/assets/a-5-Dm9M0AaW.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"1dd3-A8sIfPqJ+ybzxtlkDvuI22PA4bA\"",
+		"mtime": "2026-08-04T12:01:20.087Z",
+		"size": 7635,
+		"path": "../public/assets/a-5-Dm9M0AaW.jpg"
+	},
+	"/assets/a-4-DA4KvPVT.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"2377-3fWshcG7sEr9gp0fYt6J6kkkRdE\"",
+		"mtime": "2026-08-04T12:01:20.087Z",
+		"size": 9079,
+		"path": "../public/assets/a-4-DA4KvPVT.jpg"
+	},
+	"/assets/createLucideIcon-NRRNTmkG.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"4a5-4HckRbRuR03sSEcADKLxXpUlYl4\"",
+		"mtime": "2026-08-04T12:01:20.086Z",
+		"size": 1189,
+		"path": "../public/assets/createLucideIcon-NRRNTmkG.js"
 	},
 	"/assets/batching-plant-c7tIT3Ag.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"202bf-NdIrfobaPOpTdlSAkUv9erXQnP4\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
+		"mtime": "2026-08-04T12:01:20.088Z",
 		"size": 131775,
 		"path": "../public/assets/batching-plant-c7tIT3Ag.jpg"
 	},
-	"/assets/hmi-scada-CLcX_qcA.jpg": {
+	"/assets/a-3-DZ1mH2lF.jpg": {
 		"type": "image/jpeg",
-		"etag": "\"188d1-SPRTTSshH4tC/IXpA9zi9DhZ3Ak\"",
-		"mtime": "2026-07-24T10:38:04.454Z",
-		"size": 100561,
-		"path": "../public/assets/hmi-scada-CLcX_qcA.jpg"
+		"etag": "\"215d-BvcbaBwfQRnohx/ImADHP5WE2SA\"",
+		"mtime": "2026-08-04T12:01:20.087Z",
+		"size": 8541,
+		"path": "../public/assets/a-3-DZ1mH2lF.jpg"
 	},
 	"/favicons.ico": {
 		"type": "image/vnd.microsoft.icon",
 		"etag": "\"4203e-4+cToA6mxEm73DqyThOHtpc+mpY\"",
-		"mtime": "2026-07-24T10:38:04.660Z",
+		"mtime": "2026-08-04T12:01:20.349Z",
 		"size": 270398,
 		"path": "../public/favicons.ico"
-	},
-	"/assets/a-4-CCWTIf_f.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"2377-+DArwSSqzK0r8J5j0zg+yPCKhP0\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
-		"size": 9079,
-		"path": "../public/assets/a-4-CCWTIf_f.jpg"
 	},
 	"/assets/logo-C4GmHUNY.png": {
 		"type": "image/png",
 		"etag": "\"7a67-GeXxnCRcH5tiNXSde1x+/YMvFbI\"",
-		"mtime": "2026-07-24T10:38:04.454Z",
+		"mtime": "2026-08-04T12:01:20.088Z",
 		"size": 31335,
 		"path": "../public/assets/logo-C4GmHUNY.png"
 	},
-	"/assets/projects._slug-CWhXwxX0.js": {
+	"/assets/phone-DFVjll-i.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"290-SfvhWunhFSkz6WSGCg5Cp3My7Eg\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
+		"etag": "\"2e1-+8v01A6/l+BPMfHn+DKFl6tM/r8\"",
+		"mtime": "2026-08-04T12:01:20.086Z",
+		"size": 737,
+		"path": "../public/assets/phone-DFVjll-i.js"
+	},
+	"/assets/projects._slug-CepEIyIr.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"290-NBlBSZOLjEPIXPiVcMJLhBI+x8U\"",
+		"mtime": "2026-08-04T12:01:20.086Z",
 		"size": 656,
-		"path": "../public/assets/projects._slug-CWhXwxX0.js"
-	},
-	"/assets/projects._slug-hsIjmFIy.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"1c6e-+EbbeTwKdWMYn+KtEJclVjIqXW0\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
-		"size": 7278,
-		"path": "../public/assets/projects._slug-hsIjmFIy.js"
-	},
-	"/assets/routes-BTPknf9c.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"72ef-2XxaJR2uRtygkUK1Rk6lOUDKhhM\"",
-		"mtime": "2026-07-24T10:38:04.453Z",
-		"size": 29423,
-		"path": "../public/assets/routes-BTPknf9c.js"
+		"path": "../public/assets/projects._slug-CepEIyIr.js"
 	},
 	"/assets/panel-DnbEkkkm.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"1fef3-U4K8ceC4iowaEzPSwcxz9NI1uwg\"",
-		"mtime": "2026-07-24T10:38:04.454Z",
+		"mtime": "2026-08-04T12:01:20.088Z",
 		"size": 130803,
 		"path": "../public/assets/panel-DnbEkkkm.jpg"
 	},
-	"/assets/phone-Cnc-vSGs.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2e1-0gm+Tm4U0uCeGelabZh53J1Cr+8\"",
-		"mtime": "2026-07-24T10:38:04.452Z",
-		"size": 737,
-		"path": "../public/assets/phone-Cnc-vSGs.js"
-	},
-	"/assets/index-_mV7QKoj.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"56c43-DpN1t8MxfEjN03Eg0Tkcz2fX2xs\"",
-		"mtime": "2026-07-24T10:38:04.452Z",
-		"size": 355395,
-		"path": "../public/assets/index-_mV7QKoj.js"
-	},
-	"/assets/styles-B0eoB8uE.css": {
-		"type": "text/css; charset=utf-8",
-		"etag": "\"141c3-y+Msk2Twyo6pkxy35zkboBOfsZ0\"",
-		"mtime": "2026-07-24T10:38:04.454Z",
-		"size": 82371,
-		"path": "../public/assets/styles-B0eoB8uE.css"
-	},
-	"/assets/hero-automation-CpH71nzF.jpg": {
+	"/assets/hmi-scada-CLcX_qcA.jpg": {
 		"type": "image/jpeg",
-		"etag": "\"1a629a-kXSuTT+nr78Rc8C38cqwc5QHAvw\"",
-		"mtime": "2026-07-24T10:38:04.454Z",
-		"size": 1729178,
-		"path": "../public/assets/hero-automation-CpH71nzF.jpg"
+		"etag": "\"188d1-SPRTTSshH4tC/IXpA9zi9DhZ3Ak\"",
+		"mtime": "2026-08-04T12:01:20.088Z",
+		"size": 100561,
+		"path": "../public/assets/hmi-scada-CLcX_qcA.jpg"
+	},
+	"/assets/projects._slug-CsVVqCrT.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"1c30-bLXWBr1Ysug5we6lD3USUitwt9U\"",
+		"mtime": "2026-08-04T12:01:20.087Z",
+		"size": 7216,
+		"path": "../public/assets/projects._slug-CsVVqCrT.js"
+	},
+	"/assets/index-C7MNJIGq.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"57334-vZgewgr/UdluYWUSOziUJGkSH2k\"",
+		"mtime": "2026-08-04T12:01:20.086Z",
+		"size": 357172,
+		"path": "../public/assets/index-C7MNJIGq.js"
+	},
+	"/assets/routes-_hXnT3E5.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"731c-Ha7MxLw3FDw1F6D5FFUIfariPmI\"",
+		"mtime": "2026-08-04T12:01:20.087Z",
+		"size": 29468,
+		"path": "../public/assets/routes-_hXnT3E5.js"
+	},
+	"/assets/styles-_AQsuPfe.css": {
+		"type": "text/css; charset=utf-8",
+		"etag": "\"14327-2Q9KcwUuOtCl/Vg10OomU4fSMR4\"",
+		"mtime": "2026-08-04T12:01:20.088Z",
+		"size": 82727,
+		"path": "../public/assets/styles-_AQsuPfe.css"
+	},
+	"/assets/hero-automation-DaHfezWA.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"7bdee-DR9el9AIQncvfzmoDxVq1ey+ANk\"",
+		"mtime": "2026-08-04T12:01:20.088Z",
+		"size": 507374,
+		"path": "../public/assets/hero-automation-DaHfezWA.jpg"
 	}
 };
 //#endregion

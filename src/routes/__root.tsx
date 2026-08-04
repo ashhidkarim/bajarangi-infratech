@@ -1,4 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import PopupForm from "../components/ui/PopupForm";
 import {
   Outlet,
   Link,
@@ -124,6 +125,8 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
+        {/* Auto Popup */}
+      <PopupForm />
     </QueryClientProvider>
   );
 }

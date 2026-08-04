@@ -1,18 +1,18 @@
 import { n as __toESM } from "../_runtime.mjs";
-import { i as projects, n as panel_default, t as hero_automation_default } from "./projects-CUK_U9ss.mjs";
+import { r as projects, t as panel_default } from "./projects-D7BiU8_O.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { C as Activity, _ as Cog, a as ShieldCheck, b as CircleCheck, c as MessageCircle, d as Mail, f as Headphones, g as Cpu, h as Factory, i as Star, l as Menu, m as FlaskConical, n as X, o as Phone, p as Gauge, r as Wrench, s as Monitor, t as Zap, u as MapPin, v as Clock, x as ArrowRight, y as CircuitBoard } from "../_libs/lucide-react.mjs";
 import { n as PHONE, t as EMAIL } from "./routes-DE9RbxCz.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-Dyi-ytoN.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CziBiUve.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var logo_default = "/assets/logo-C4GmHUNY.png";
-var a_1_default = "/assets/a-1-Bsyp4Xb6.jpg";
-var a_2_default = "/assets/a-2-BZlJ7XD_.jpg";
-var a_3_default = "/assets/a-3-EGnBb_Hi.jpg";
-var a_4_default = "/assets/a-4-CCWTIf_f.jpg";
-var a_5_default = "/assets/a-5-CVjXUQDp.jpg";
+var a_1_default = "/assets/a-1-vcRhEuaj.jpg";
+var a_2_default = "/assets/a-2-CqQ75aaa.jpg";
+var a_3_default = "/assets/a-3-DZ1mH2lF.jpg";
+var a_4_default = "/assets/a-4-DA4KvPVT.jpg";
+var a_5_default = "/assets/a-5-Dm9M0AaW.jpg";
 var web4 = "https://web4infotech.com/";
 var PHONE_TEL = "+918668454817";
 var WA = `https://api.whatsapp.com/send?phone=+918668454817&text=Hello`;
@@ -132,14 +132,18 @@ function Hero() {
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "absolute inset-0 -z-10",
 			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-					src: hero_automation_default,
-					alt: "Industrial automation control room with PLC cabinets and SCADA screens",
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("video", {
+					autoPlay: true,
+					muted: true,
+					loop: true,
+					playsInline: true,
 					className: "h-full w-full object-cover opacity-40",
-					width: 1920,
-					height: 1080
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("source", {
+						src: "https://cdn.prod.website-files.com/65f854814fd223fc3678ea45/6601787785162a844edf5cf8_iStock-804878296-transcode.mp4",
+						type: "video/mp4"
+					})
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-black/10" }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 grid-lines opacity-60" })
 			]
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -190,37 +194,37 @@ function Hero() {
 					]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "mt-12 flex flex-wrap items-center gap-8",
+					className: "mt-12 flex flex-wrap items-center gap-6",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: a_1_default,
 							alt: "Siemens",
-							className: "h-12 object-contain rounded-xl"
+							className: "h-18 object-contain rounded-xl"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: a_2_default,
 							alt: "Delta",
-							className: "h-12 object-contain rounded-xl"
+							className: "h-18 object-contain rounded-xl"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: a_3_default,
 							alt: "Mitsubishi",
-							className: "h-12 object-contain rounded-xl"
+							className: "h-18 object-contain rounded-xl"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: a_4_default,
 							alt: "Allen Bradley",
-							className: "h-12 object-contain rounded-xl"
+							className: "h-18 object-contain rounded-xl"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: a_4_default,
 							alt: "LabVIEW",
-							className: "h-12 object-contain rounded-xl"
+							className: "h-18 object-contain rounded-xl"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: a_5_default,
 							alt: "Weintek",
-							className: "h-12 object-contain rounded-xl"
+							className: "h-18 object-contain rounded-xl"
 						})
 					]
 				})
