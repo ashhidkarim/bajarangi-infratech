@@ -305,38 +305,131 @@ function About() {
 }
 
 /* ---------- Services ---------- */
-type Svc = { icon: ReactNode; title: string; items: string[] };
+type Svc = {
+  icon: ReactNode;
+  title: string;
+  link: string;
+  items: string[];
+};
+
 function Services() {
   const svcs: Svc[] = [
-    { icon: <Cpu className="h-5 w-5" />, title: "PLC Programming",
-      items: ["Siemens S7-1200","Siemens S7-1500","S7-200 Smart","Delta PLC","Mitsubishi PLC","Allen Bradley PLC"] },
-    { icon: <Monitor className="h-5 w-5" />, title: "SCADA Development",
-      items: ["Custom SCADA Software","Real-time Monitoring","Historical Trends","Alarm Management","Production Reports","SQL Database Integration"] },
-    { icon: <Gauge className="h-5 w-5" />, title: "HMI Development",
-      items: ["Delta","Siemens","INVT","Fuji","Weintek","Custom Screens"] },
-    { icon: <FlaskConical className="h-5 w-5" />, title: "LabVIEW Development",
-      items: ["Industrial Software","DAQ Systems","Machine Testing Software","Report Generation","Vision Inspection","Automation Dashboards"] },
-    { icon: <CircuitBoard className="h-5 w-5" />, title: "Control Panel Design",
-      items: ["Electrical Design","PLC Panels","MCC Panels","PCC Panels","Automation Panels","Field Commissioning"] },
-    { icon: <Cog className="h-5 w-5" />, title: "Industrial Automation",
-      items: ["Machine Retrofitting","OEM Machine Development","Testing Machines","Special Purpose Machines","Industrial Networking","Industrial IoT"] },
+    {
+      icon: <Cpu className="h-5 w-5" />,
+      title: "PLC Programming",
+      link: "https://bajarangiinfratechworld.com/services/plc-programming.html",
+      items: [
+        "Siemens S7-1200",
+        "Siemens S7-1500",
+        "S7-200 Smart",
+        "Delta PLC",
+        "Mitsubishi PLC",
+        "Allen Bradley PLC",
+      ],
+    },
+
+    {
+      icon: <Monitor className="h-5 w-5" />,
+      title: "SCADA Development",
+      link: "https://bajarangiinfratechworld.com/services/scada-development.html",
+      items: [
+        "Custom SCADA Software",
+        "Real-time Monitoring",
+        "Historical Trends",
+        "Alarm Management",
+        "Production Reports",
+        "SQL Database Integration",
+      ],
+    },
+
+    {
+      icon: <Gauge className="h-5 w-5" />,
+      title: "HMI Development",
+      link: "https://bajarangiinfratechworld.com/services/hmi-development.html",
+      items: [
+        "Delta",
+        "Siemens",
+        "INVT",
+        "Fuji",
+        "Weintek",
+        "Custom Screens",
+      ],
+    },
+
+    {
+      icon: <FlaskConical className="h-5 w-5" />,
+      title: "LabVIEW Development",
+      link: "https://bajarangiinfratechworld.com/services/labview-development.html",
+      items: [
+        "Industrial Software",
+        "DAQ Systems",
+        "Machine Testing Software",
+        "Report Generation",
+        "Vision Inspection",
+        "Automation Dashboards",
+      ],
+    },
+
+    {
+      icon: <CircuitBoard className="h-5 w-5" />,
+      title: "Control Panel Design",
+      link: "https://bajarangiinfratechworld.com/services/control-panel-integration.html",
+      items: [
+        "Electrical Design",
+        "PLC Panels",
+        "MCC Panels",
+        "PCC Panels",
+        "Automation Panels",
+        "Field Commissioning",
+      ],
+    },
+
+    {
+      icon: <Cog className="h-5 w-5" />,
+      title: "Industrial Automation",
+      link: "https://bajarangiinfratechworld.com/services/industrial-automation.html",
+      items: [
+        "Machine Retrofitting",
+        "OEM Machine Development",
+        "Testing Machines",
+        "Special Purpose Machines",
+        "Industrial Networking",
+        "Industrial IoT",
+      ],
+    },
   ];
+
   return (
-    <section id="services" className="py-24 bg-surface/30 border-y border-border">
+    <section
+      id="services"
+      className="py-24 bg-surface/30 border-y border-border"
+    >
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="max-w-2xl">
           <SectionKicker>Our Services</SectionKicker>
+
           <h2 className="mt-3 font-display font-bold text-3xl md:text-5xl">
             End-to-end automation, engineered in-house.
           </h2>
         </div>
+
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {svcs.map((s) => (
-            <div key={s.title} className="group relative rounded-xl border border-border bg-surface p-6 hover:border-brand/60 transition">
+            <a
+              key={s.title}
+              href={s.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative rounded-xl border border-border bg-surface p-6 hover:border-brand/60 hover:shadow-lg transition block"
+            >
               <div className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-brand/15 text-brand ring-1 ring-brand/30">
                 {s.icon}
               </div>
-              <h3 className="mt-4 font-display font-semibold text-xl">{s.title}</h3>
+
+              <h3 className="mt-4 font-display font-semibold text-xl group-hover:text-brand transition">
+                {s.title}
+              </h3>
+
               <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
                 {s.items.map((it) => (
                   <li key={it} className="flex items-center gap-2">
@@ -345,14 +438,13 @@ function Services() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </a>
           ))}
         </div>
       </div>
     </section>
   );
 }
-
 /* ---------- Industries ---------- */
 function Industries() {
   const list = [
