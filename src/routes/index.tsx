@@ -317,7 +317,7 @@ function Services() {
     {
       icon: <Cpu className="h-5 w-5" />,
       title: "PLC Programming",
-      link: "https://bajarangiinfratechworld.com/services/plc-programming.html",
+      link: "/services/plc-programming.html",
       items: [
         "Siemens S7-1200",
         "Siemens S7-1500",
@@ -331,7 +331,7 @@ function Services() {
     {
       icon: <Monitor className="h-5 w-5" />,
       title: "SCADA Development",
-      link: "https://bajarangiinfratechworld.com/services/scada-development.html",
+      link: "/services/scada-development.html",
       items: [
         "Custom SCADA Software",
         "Real-time Monitoring",
@@ -345,7 +345,7 @@ function Services() {
     {
       icon: <Gauge className="h-5 w-5" />,
       title: "HMI Development",
-      link: "https://bajarangiinfratechworld.com/services/hmi-development.html",
+      link: "/services/hmi-development.html",
       items: [
         "Delta",
         "Siemens",
@@ -359,7 +359,7 @@ function Services() {
     {
       icon: <FlaskConical className="h-5 w-5" />,
       title: "LabVIEW Development",
-      link: "https://bajarangiinfratechworld.com/services/labview-development.html",
+      link: "/services/labview-development.html",
       items: [
         "Industrial Software",
         "DAQ Systems",
@@ -373,7 +373,7 @@ function Services() {
     {
       icon: <CircuitBoard className="h-5 w-5" />,
       title: "Control Panel Design",
-      link: "https://bajarangiinfratechworld.com/services/control-panel-integration.html",
+      link: "services/control-panel-integration.html",
       items: [
         "Electrical Design",
         "PLC Panels",
@@ -387,7 +387,7 @@ function Services() {
     {
       icon: <Cog className="h-5 w-5" />,
       title: "Industrial Automation",
-      link: "https://bajarangiinfratechworld.com/services/industrial-automation.html",
+      link: "/services/industrial-automation.html",
       items: [
         "Machine Retrofitting",
         "OEM Machine Development",
