@@ -15,8 +15,31 @@ export default function PopupForm() {
 const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
 
+  // Check Empty Fields
+  if (
+    formData.name.trim() === "" ||
+    formData.phone.trim() === "" ||
+    formData.email.trim() === "" ||
+    formData.message.trim() === ""
+  ) {
+    alert("Please fill all fields.");
+    return;
+  }
+
+  // Check Mobile Number
+  if (!/^[6-9]\d{9}$/.test(formData.phone)) {
+    alert("Please enter a valid 10-digit mobile number.");
+    return;
+  }
+
+  // Check Email
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
   try {
-    const response = await fetch("https://web4infotech.com/api/send-mail.php",  {
+    const response = await fetch("https://web4infotech.com/api/send-mail.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -63,6 +86,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
        <form onSubmit={handleSubmit}>
         <input
   type="text"
+  required
   placeholder="Full Name"
   value={formData.name}
   onChange={(e) =>
@@ -73,6 +97,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
        <input
   type="tel"
+  required
   placeholder="Mobile Number"
   value={formData.phone}
   onChange={(e) =>
@@ -83,6 +108,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
      <input
   type="email"
+  required
   placeholder="Email Address"
   value={formData.email}
   onChange={(e) =>
@@ -94,6 +120,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
       <textarea
   rows={4}
   placeholder="Message"
+  required
   value={formData.message}
   onChange={(e) =>
     setFormData({ ...formData, message: e.target.value })
